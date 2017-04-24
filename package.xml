@@ -2,7 +2,7 @@
 <package>
   <name>rqt_action</name>
   <version>0.4.7</version>
-  <description>rqt_action provides a feature to introspect all available ROS 
+  <description>rqt_action provides a feature to introspect all available ROS
   action (from actionlib) types. By utilizing rqt_msg, the output format is
   unified with it and rqt_srv. Note that the actions shown on this plugin
   is the ones that are stored on your machine, not on the ROS core your rqt
@@ -11,10 +11,9 @@
   <maintainer email="ablasdel@gmail.com">Aaron Blasdel</maintainer>
   <license>BSD</license>
 
-
-  <url type="website">http://ros.org/wiki/rqt_action</url>
-  <url type="repository">https://github.com/ros-visualization/rqt_common_plugins</url>
-  <url type="bugtracker">https://github.com/ros-visualization/rqt_common_plugins/issues</url>
+  <url type="website">http://wiki.ros.org/rqt_action</url>
+  <url type="repository">https://github.com/ros-visualization/rqt_action</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rqt_action/issues</url>
 
   <author>Isaac Isao Saito</author>
 
