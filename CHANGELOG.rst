@@ -2,6 +2,10 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add gbiggs as maintainer (`#2 <https://github.com/ros-visualization/rqt_action/issues/2>`_)
+
 0.4.8 (2017-04-27)
 ------------------
 
