@@ -37,6 +37,7 @@ from rqt_py_common import rosaction
 
 
 class ActionPlugin(Plugin):
+
     def __init__(self, context):
         super(ActionPlugin, self).__init__(context)
         self.setObjectName('Action')
