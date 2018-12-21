@@ -33,7 +33,7 @@
 from qt_gui.plugin import Plugin
 
 from rqt_msg.messages_widget import MessagesWidget
-from rqt_py_common import rosaction
+from rqt_py_common.message_helpers import ACTION_MODE
 
 
 class ActionPlugin(Plugin):
@@ -41,7 +41,7 @@ class ActionPlugin(Plugin):
     def __init__(self, context):
         super(ActionPlugin, self).__init__(context)
         self.setObjectName('Action')
-        self._widget = MessagesWidget(rosaction.MODE_ACTION)
+        self._widget = MessagesWidget(ACTION_MODE)
         self._widget.setWindowTitle('Action Type Browser')
         if context.serial_number() > 1:
             self._widget.setWindowTitle(self._widget.windowTitle() +

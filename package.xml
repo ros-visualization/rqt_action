@@ -19,8 +19,6 @@
 
   <author>Isaac Isao Saito</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
-
   <!-- 3/11/2013 (Isaac) run_depend on actionlib will be commented out for now
   until rqt_py_common.rosaction gets moved to actionlib. -->
   <!-- <run_depend>actionlib</run_depend> -->
@@ -29,7 +27,7 @@
   <run_depend>rqt_py_common</run_depend>
 
   <export>
-    <architecture_independent/>
+    <build_type>ament_python</build_type>
     <rqt_gui plugin="${prefix}/plugin.xml"/>
   </export>
 </package>
