@@ -1,11 +1,34 @@
-#!/usr/bin/env python
+from setuptools import setup
 
-from distutils.core import setup
-from catkin_pkg.python_setup import generate_distutils_setup
-
-d = generate_distutils_setup(
-    packages=['rqt_action'],
+package_name = 'rqt_action'
+setup(
+    name=package_name,
+    version='0.4.9',
     package_dir={'': 'src'},
+    packages=[package_name],
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name, ['plugin.xml'])
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    author='Isaac Isao Saito',
+    maintainer='Mikael Arguedas, Aaron Blasdel, Geoffrey Biggs',
+    maintainer_email='mikael@osrfoundation.org',
+    keywords=['ROS'],
+    classifiers=[
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python',
+        'Topic :: Software Development',
+    ],
+    description=(
+        'rqt_action provides a feature to introspect all available ROS action (from actionlib) '
+        'types. By utilizing rqt_msg, the output format is unified with it and rqt_srv. Note that '
+        'the actions shown on this plugin is the ones that are stored on your machine, not on the '
+        'ROS core your rqt instance connects to.'
+    ),
+    license='BSD',
 )
-
-setup(**d)
