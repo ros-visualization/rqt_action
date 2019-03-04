@@ -2,8 +2,8 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2019-03-04)
+------------------
 * Porting rqt_action to ROS2 (`#4 <https://github.com/ros-visualization/rqt_action/issues/4>`_)
 * autopep8 (`#3 <https://github.com/ros-visualization/rqt_action/issues/3>`_)
 * Contributors: Mike Lautman, brawner
