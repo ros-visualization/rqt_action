@@ -2,6 +2,12 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Porting rqt_action to ROS2 (`#4 <https://github.com/ros-visualization/rqt_action/issues/4>`_)
+* autopep8 (`#3 <https://github.com/ros-visualization/rqt_action/issues/3>`_)
+* Contributors: Mike Lautman, brawner
+
 0.4.9 (2017-05-19)
 ------------------
 * Add gbiggs as maintainer (`#2 <https://github.com/ros-visualization/rqt_action/issues/2>`_)
