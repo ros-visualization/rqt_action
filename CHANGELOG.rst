@@ -2,6 +2,11 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* updating package.xml to ros2 (`#6 <https://github.com/ros-visualization/rqt_action/issues/6>`_)
+* Contributors: Mike Lautman
+
 1.0.0 (2019-03-04)
 ------------------
 * Porting rqt_action to ROS2 (`#4 <https://github.com/ros-visualization/rqt_action/issues/4>`_)
