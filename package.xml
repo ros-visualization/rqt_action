@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>rqt_action</name>
   <version>1.0.0</version>
   <description>rqt_action provides a feature to introspect all available ROS
-  action (from actionlib) types. By utilizing rqt_msg, the output format is
+  action types. By utilizing rqt_msg, the output format is
   unified with it and rqt_srv. Note that the actions shown on this plugin
   is the ones that are stored on your machine, not on the ROS core your rqt
   instance connects to.</description>
@@ -19,12 +19,12 @@
 
   <author>Isaac Isao Saito</author>
 
-  <!-- 3/11/2013 (Isaac) run_depend on actionlib will be commented out for now
-  until rqt_py_common.rosaction gets moved to actionlib. -->
-  <!-- <run_depend>actionlib</run_depend> -->
-  <run_depend>rospy</run_depend>
-  <run_depend>rqt_msg</run_depend>
-  <run_depend>rqt_py_common</run_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rqt_msg</exec_depend>
+  <exec_depend version_gte="0.2.19">python_qt_binding</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>rqt_py_common</exec_depend>
 
   <export>
     <build_type>ament_python</build_type>
