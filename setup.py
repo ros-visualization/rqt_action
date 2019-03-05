@@ -25,7 +25,7 @@ setup(
         'Topic :: Software Development',
     ],
     description=(
-        'rqt_action provides a feature to introspect all available ROS action (from actionlib) '
+        'rqt_action provides a feature to introspect all available ROS action '
         'types. By utilizing rqt_msg, the output format is unified with it and rqt_srv. Note that '
         'the actions shown on this plugin is the ones that are stored on your machine, not on the '
         'ROS core your rqt instance connects to.'
