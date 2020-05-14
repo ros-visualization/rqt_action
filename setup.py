@@ -3,7 +3,7 @@ from setuptools import setup
 package_name = 'rqt_action'
 setup(
     name=package_name,
-    version='0.4.9',
+    version='1.0.1',
     package_dir={'': 'src'},
     packages=[package_name],
     data_files=[
@@ -20,7 +20,7 @@ setup(
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache Software License',
+        'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
@@ -31,4 +31,9 @@ setup(
         'ROS core your rqt instance connects to.'
     ),
     license='BSD',
+    entry_points={
+        'console_scripts': [
+            'rqt_action = ' + package_name + '.main:main',
+        ],
+    },
 )
