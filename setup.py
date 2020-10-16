@@ -15,7 +15,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     author='Isaac Isao Saito',
-    maintainer='Mikael Arguedas, Aaron Blasdel, Geoffrey Biggs',
+    maintainer='Mikael Arguedas, Aaron Blasdel, Geoffrey Biggs, Mabel Zhang',
     maintainer_email='mikael@osrfoundation.org',
     keywords=['ROS'],
     classifiers=[
