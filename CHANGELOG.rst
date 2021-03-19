@@ -2,6 +2,12 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updated Open Robotics maintainer
+* Fixed package to run with ros2 run (`#8 <https://github.com/ros-visualization/rqt_action/issues/8>`_)
+* Contributors: Alejandro Hernández Cordero, Mabel Zhang
+
 1.0.1 (2019-03-05)
 ------------------
 * updating package.xml to ros2 (`#6 <https://github.com/ros-visualization/rqt_action/issues/6>`_)
