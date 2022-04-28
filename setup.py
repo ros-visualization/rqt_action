@@ -28,6 +28,7 @@ setup(
         'rqt_action provides a feature to introspect all available ROS action types.'
     ),
     license='BSD',
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'rqt_action = ' + package_name + '.main:main',
