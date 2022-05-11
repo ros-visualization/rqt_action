@@ -2,6 +2,9 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2022-05-10)
+------------------
+
 2.0.1 (2022-01-14)
 ------------------
 * Update maintainers (`#12 <https://github.com/ros-visualization/rqt_action/issues/12>`_)
