@@ -2,6 +2,12 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Small cleanups to the rqt_action plugin (`#13 <https://github.com/ros-visualization/rqt_action/issues/13>`_)
+* Mirror rolling to ros2
+* Contributors: Audrow Nash, Chris Lalancette
+
 2.1.0 (2022-05-10)
 ------------------
 
