@@ -3,7 +3,7 @@ from setuptools import setup
 package_name = 'rqt_action'
 setup(
     name=package_name,
-    version='2.1.0',
+    version='2.1.1',
     package_dir={'': 'src'},
     packages=[package_name],
     data_files=[
