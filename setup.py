@@ -15,8 +15,8 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     author='Isaac Isao Saito',
-    maintainer='Mikael Arguedas, Aaron Blasdel, Geoffrey Biggs, Mabel Zhang',
-    maintainer_email='mikael@osrfoundation.org',
+    maintainer='Geoffrey Biggs',
+    maintainer_email='geoff@openrobotics.org',
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
