@@ -2,6 +2,11 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* [rolling] Update maintainers - 2022-11-07 (`#14 <https://github.com/ros-visualization/rqt_action/issues/14>`_)
+* Contributors: Audrow Nash
+
 2.1.1 (2022-11-02)
 ------------------
 * Small cleanups to the rqt_action plugin (`#13 <https://github.com/ros-visualization/rqt_action/issues/13>`_)
