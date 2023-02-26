@@ -1,4 +1,4 @@
-<package format="3">
+<package>
   <name>rqt_action</name>
   <version>0.4.9</version>
   <description>rqt_action provides a feature to introspect all available ROS
