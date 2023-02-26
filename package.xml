@@ -21,6 +21,8 @@
   <author>Isaac Isao Saito</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend condition="$ROS_PYTHON_VERSION == 2">python-setuptools</buildtool_depend>
+  <buildtool_depend condition="$ROS_PYTHON_VERSION == 3">python3-setuptools</buildtool_depend>
 
   <!-- 3/11/2013 (Isaac) run_depend on actionlib will be commented out for now
   until rqt_py_common.rosaction gets moved to actionlib. -->
