@@ -2,8 +2,8 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.2 (2023-03-16)
+------------------
 * revert to 1.0.1, so that new changes are only on rolling
 * Merge pull request `#9 <https://github.com/ros-visualization/rqt_action/issues/9>`_ from ros-visualization/update_maintainers_crystal
 * update Open Robotics maintainer
