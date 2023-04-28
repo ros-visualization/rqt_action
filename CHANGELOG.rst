@@ -2,6 +2,9 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.1.2 (2023-02-14)
 ------------------
 * [rolling] Update maintainers - 2022-11-07 (`#14 <https://github.com/ros-visualization/rqt_action/issues/14>`_)
