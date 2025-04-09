@@ -2,6 +2,13 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Import setup from setuptools instead of distutils.core (`#15 <https://github.com/ros-visualization/rqt_action/issues/15>`_)
+* Update Maintainers (`#10 <https://github.com/ros-visualization/rqt_action/issues/10>`_)
+* Fix linting (`#3 <https://github.com/ros-visualization/rqt_action/issues/3>`_)
+* Contributors: Arne Hitzmann, David V. Lu!!, Dirk Thomas, Mabel Zhang, Matthijs van der Burgh, Mike Lautman
+
 0.4.9 (2017-05-19)
 ------------------
 * Add gbiggs as maintainer (`#2 <https://github.com/ros-visualization/rqt_action/issues/2>`_)
