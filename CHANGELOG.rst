@@ -2,8 +2,8 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.10 (2025-04-09)
+-------------------
 * Import setup from setuptools instead of distutils.core (`#15 <https://github.com/ros-visualization/rqt_action/issues/15>`_)
 * Update Maintainers (`#10 <https://github.com/ros-visualization/rqt_action/issues/10>`_)
 * Fix linting (`#3 <https://github.com/ros-visualization/rqt_action/issues/3>`_)
