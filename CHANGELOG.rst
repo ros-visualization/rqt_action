@@ -2,8 +2,8 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.11 (2025-04-26)
+-------------------
 * Bump cmake_minimum_required to avoid deprecation (`#18 <https://github.com/ros-visualization/rqt_action/issues/18>`_)
 * Contributors: Arne Hitzmann
 
