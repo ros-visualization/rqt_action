@@ -2,6 +2,11 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.0 (2025-04-28)
+------------------
+* Remove CODEOWNERS and mirror-rolling-to-main workflow (`#16 <https://github.com/ros-visualization/rqt_action/issues/16>`_)
+* Contributors: Alejandro Hernández Cordero
+
 2.3.0 (2024-04-26)
 ------------------
 
