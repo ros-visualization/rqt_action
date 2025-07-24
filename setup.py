@@ -20,7 +20,6 @@ setup(
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
@@ -31,6 +30,14 @@ setup(
         'ROS core your rqt instance connects to.'
     ),
     license='BSD',
+<<<<<<< HEAD
+=======
+    extras_require={
+        'test': [
+            'pytest',
+        ],
+    },
+>>>>>>> d4063e0 (fix setuptools deprecations (#19))
     entry_points={
         'console_scripts': [
             'rqt_action = ' + package_name + '.main:main',
