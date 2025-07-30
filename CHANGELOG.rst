@@ -2,8 +2,8 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.4.1 (2025-07-30)
+------------------
 * fix setuptools deprecations (`#19 <https://github.com/ros-visualization/rqt_action/issues/19>`_)
 * Contributors: mosfet80
 
