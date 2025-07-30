@@ -2,6 +2,11 @@
 Changelog for package rqt_action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix setuptools deprecations (`#19 <https://github.com/ros-visualization/rqt_action/issues/19>`_)
+* Contributors: mosfet80
+
 2.4.0 (2025-04-28)
 ------------------
 * Remove CODEOWNERS and mirror-rolling-to-main workflow (`#16 <https://github.com/ros-visualization/rqt_action/issues/16>`_)
