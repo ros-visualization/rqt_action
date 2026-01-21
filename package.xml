@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>rqt_action</name>
-  <version>2.2.0</version>
+  <version>2.2.1</version>
   <description>rqt_action provides a feature to introspect all available ROS action types.</description>
 
   <maintainer email="geoff@openrobotics.org">Geoffrey Biggs</maintainer>
