@@ -39,13 +39,13 @@ from rqt_py_common.message_helpers import ACTION_MODE
 class ActionPlugin(Plugin):
 
     def __init__(self, context):
-        super(ActionPlugin, self).__init__(context)
+        super().__init__(context)
         self.setObjectName('Action')
         self._widget = MessagesWidget(ACTION_MODE)
         self._widget.setWindowTitle('Action Type Browser')
         if context.serial_number() > 1:
             self._widget.setWindowTitle(self._widget.windowTitle() +
-                                        (' (%d)' % context.serial_number()))
+                                        (f' ({context.serial_number()})'))
         context.add_widget(self._widget)
 
     def shutdown_plugin(self):
